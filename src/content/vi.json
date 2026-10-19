@@ -1,0 +1,151 @@
+{
+  "company": {
+    "name": "Guilin Mingrun Mining Machinery Co., Ltd.",
+    "shortName": "Mingrun Machinery",
+    "slogan": "Thiết kế chính xác, chế tạo tinh gọn",
+    "address": "Khu công nghiệp Dương Đường, Khu phát triển kinh tế – kỹ thuật Quế Lâm, Quảng Tây, Trung Quốc",
+    "intro": "Công ty TNHH Máy móc Khai khoáng Mingrun Quế Lâm là nhà sản xuất máy móc khai khoáng chuyên về máy nghiền bột và máy làm cát, kết hợp nghiên cứu phát triển, thiết kế, chế tạo, đào tạo và dịch vụ hậu mãi. Tập trung vào thiết bị nghiền bột mịn, chúng tôi đồng hành cùng khách hàng trong toàn bộ quá trình xây dựng dây chuyền: tư vấn dự án, khảo sát hiện trường, phân tích mẫu, thiết kế công nghệ, lắp đặt, chạy thử và hướng dẫn bảo trì.",
+    "philosophy": "Tập trung đổi mới công nghệ, kiến tạo chất lượng vượt trội",
+    "spirit": "Đoàn kết, Cống hiến, Tiên phong, Hiệu quả",
+    "policy": "Chất lượng là hàng đầu, khách hàng là trên hết, đổi mới và không ngừng hoàn thiện",
+    "promise": "Chúng tôi phục vụ khách hàng bằng sự chân thành, sản phẩm chất lượng, dịch vụ toàn diện và giá cả hợp lý."
+  },
+  "specLabels": {
+    "feedSize": "Kích thước nạp liệu",
+    "capacity": "Năng suất",
+    "efficiency": "Tốc độ đóng bao và xếp pallet",
+    "bagWeight": "Trọng lượng bao",
+    "layers": "Số tầng sàng",
+    "speed": "Tốc độ quay",
+    "screenArea": "Diện tích sàng",
+    "amplitude": "Biên độ lắc",
+    "frequency": "Tần số lắc"
+  },
+  "products": {
+    "mr-grinding-mill": {
+      "name": "Máy nghiền bột dòng MR",
+      "short": "Máy nghiền bột mịn hiệu suất cao, tiết kiệm năng lượng, đa dụng.",
+      "intro": "Máy nghiền bột dòng MR là thiết bị nghiền hiệu suất cao, tiết kiệm năng lượng của Mingrun, dùng để nghiền khoáng phi kim trong các ngành luyện kim, khai khoáng, vật liệu xây dựng, điện lực và hóa chất. Máy sản xuất bột canxi cacbonat nặng, bột đá vôi khử lưu huỳnh, bột than, bột cốc dầu mỏ và nhiều loại khác.",
+      "principle": "Sau khi đập nhỏ, vật liệu được gầu nâng đưa lên phễu chứa, rồi được cấp đều và liên tục vào buồng nghiền. Bột sau nghiền theo luồng khí vào bộ phân loại; bột đạt chuẩn được tách ra ở bộ thu bụi xyclon, hạt thô rơi lại máy chính để nghiền lại. Hệ thống khí tuần hoàn kín, môi trường làm việc sạch sẽ.",
+      "features": [
+        { "title": "Con lăn và vành nghiền dạng bậc", "text": "Kéo dài thời gian nghiền, hiệu suất cao hơn." },
+        { "title": "Cánh phân loại mật độ cao", "text": "Thành phẩm mịn hơn đồng thời tăng năng suất." },
+        { "title": "Quạt ly tâm hiệu suất cao", "text": "Quạt dập khuôn hiệu quả hơn quạt truyền thống." },
+        { "title": "Dễ điều chỉnh độ mịn", "text": "Khe hở cánh phân loại điều chỉnh thuận tiện." }
+      ],
+      "applications": "Luyện kim, khai khoáng, vật liệu xây dựng, điện lực, hóa chất",
+      "materials": "Đá vôi, canxit, dolomit, đá cẩm thạch, talc, than, cao lanh, barit, cốc dầu mỏ, bauxit, v.v."
+    },
+    "sf-sand-making-machine": {
+      "name": "Máy làm cát dòng SF",
+      "short": "Máy làm cát va đập trục đứng: làm cát, tạo hình hạt và thu bột.",
+      "intro": "Dòng SF là máy làm cát va đập trục đứng, chủ yếu để sản xuất cát và kiêm chức năng thu bột. Máy dùng cho cát màu tự nhiên, cát nhân tạo và tạo hình cốt liệu, thường kết hợp với máy đập, gầu nâng, băng cấp liệu, sàng rung và bộ lọc bụi thành dây chuyền làm cát hoàn chỉnh.",
+      "principle": "Bộ chia liệu tách vật liệu thành hai dòng. Một dòng được rôto tốc độ cao gia tốc và văng ra, va đập với dòng còn lại để vỡ vụn. Trong buồng xoáy, vật liệu bị va đập, ma sát và mài nhiều lần rồi xả ra phía dưới. Vì chủ yếu là “đá đập đá”, kim loại ít mòn và ít nhiễm bẩn; luồng khí tự tuần hoàn bên trong giúp hạn chế bụi.",
+      "features": [
+        { "title": "Năng suất cao, tiêu hao thấp", "text": "Chi phí vận hành thấp, bảo trì dễ dàng." },
+        { "title": "Hình dạng hạt đẹp", "text": "Cát dạng khối, cấp phối điều chỉnh được, giá trị cao." },
+        { "title": "Nghiền đá đập đá", "text": "Lớp đệm vật liệu bảo vệ chi tiết, giảm nhiễm bẩn." },
+        { "title": "Ít bụi", "text": "Khí tự tuần hoàn trong buồng." }
+      ],
+      "applications": "Cốt liệu xây dựng, đá mài terrazzo, sơn giả đá, sơn cát màu, sàn epoxy cát màu, vật liệu mặt đường và lớp nền",
+      "materials": ""
+    },
+    "automatic-packing-palletizing-line": {
+      "name": "Dây chuyền đóng bao và xếp pallet tự động",
+      "short": "Cân, đóng bao và xếp pallet hoàn toàn tự động cho bột và hạt.",
+      "intro": "Dây chuyền gồm máy cấp bao tự động, máy đóng bao, băng tải, cân kiểm tra, máy in phun mã, robot xếp pallet, kho pallet, máy chỉnh hình pallet và máy quấn màng. Toàn bộ quy trình từ cấp bao, cân, đóng bao đến xếp pallet và quấn màng không cần người vận hành, phù hợp cả bao van và bao miệng mở.",
+      "principle": "Bao rỗng được lồng tự động và nạp đúng định lượng, sau đó qua cân kiểm tra để loại bao sai trọng lượng. Bao đạt chuẩn được in mã và robot xếp theo kiểu đã chọn; pallet đầy được chỉnh hình, quấn màng rồi xuất ra.",
+      "features": [
+        { "title": "Vận hành đơn giản", "text": "Điều khiển màn hình cảm ứng, kết cấu đơn giản, ít hỏng hóc." },
+        { "title": "Tiết kiệm điện và diện tích", "text": "Điện năng chỉ khoảng một phần ba máy xếp pallet cơ khí, chiếm ít diện tích." },
+        { "title": "Một robot, nhiều dây chuyền", "text": "Xử lý đồng thời tới 4 dây chuyền độc lập." },
+        { "title": "Kiểu xếp linh hoạt", "text": "10 kiểu xếp có sẵn và có thể tùy chỉnh." }
+      ],
+      "applications": "Vật liệu xây dựng, hóa chất, thực phẩm, ngũ cốc và dầu ăn",
+      "materials": "Vật liệu dạng bột và hạt"
+    },
+    "square-tumbler-screen": {
+      "name": "Sàng lắc vuông (MRFX)",
+      "short": "Sàng lắc qua lại năng suất cao, mô phỏng sàng thủ công.",
+      "intro": "Sàng lắc vuông MRFX mô phỏng nguyên lý sàng bằng tay. Cơ cấu lệch tâm quay quanh trục cố định tạo ra lực quán tính qua lại có hướng thay đổi theo quy luật. Máy có năng suất lớn, kết cấu kín hoàn toàn và lưới sàng bền lâu.",
+      "principle": "Dưới tác dụng của lực quán tính, thùng sàng chuyển động qua lại và mặt sàng lắc theo chu kỳ, vật liệu nhảy tiến về phía trước theo hướng xác định. Hạt nhỏ hơn mắt lưới lọt xuống tầng dưới thành sản phẩm dưới sàng, hạt lớn hơn được xả ra từ mặt lưới thành sản phẩm trên sàng.",
+      "features": [
+        { "title": "Năng suất lớn", "text": "Thiết kế nhiều tầng, có thể chia hai nhóm, một máy thay nhiều máy." },
+        { "title": "Sàng êm và chính xác", "text": "Kết hợp quỹ đạo tròn, elip và thẳng; gia tốc thấp hơn sàng rung thường 4–5 lần." },
+        { "title": "Vận hành ổn định", "text": "Bệ máy gia cường, có thể treo để cải tạo dây chuyền cũ." },
+        { "title": "Bảo trì thuận tiện", "text": "Hệ thống lắp tấm sàng giúp vệ sinh và thay lưới nhanh." }
+      ],
+      "applications": "Cát đá, hạt nhựa, bột kim loại, gỗ, dược phẩm, phân bón",
+      "materials": "Cát đá, hạt nhựa, bột kim loại, dăm gỗ, viên thuốc và cốm, phân bón"
+    },
+    "round-tumbler-screen": {
+      "name": "Sàng lắc tròn (MRYX)",
+      "short": "Sàng bột mịn độ chính xác cao, đạt 90–95%.",
+      "intro": "Sàng lắc tròn MRYX dành cho nhu cầu phân loại năng suất lớn, độ chính xác cao. Máy mô phỏng cơ học động tác sàng bằng hai tay, đặc biệt phù hợp với bột mịn, vi hạt và vật liệu khó sàng. Độ chính xác, hiệu suất và tuổi thọ lưới có thể gấp 5–10 lần sàng rung tròn thông thường.",
+      "principle": "Chuyển động lắc xoay mô phỏng sàng thủ công. Vật liệu lăn trên mặt sàng và phân bố đều ra mép; hạt mịn dần lọt qua mắt lưới, hạt thô được đưa ra cửa xả. Biên độ và tần số lắc điều chỉnh được, thời gian lưu vật liệu được kiểm soát bằng góc nghiêng hướng kính và tiếp tuyến.",
+      "features": [
+        { "title": "Độ chính xác cao", "text": "Độ chính xác sàng đạt 90–95%." },
+        { "title": "Nhiều cách làm sạch lưới", "text": "Bóng nảy, chổi quay, thổi khí, gạt đàn hồi hoặc siêu âm chống bít lưới." },
+        { "title": "Sàng êm dịu", "text": "Không phá vỡ cấu trúc hạt, ít tĩnh điện, phù hợp vật liệu dễ cháy nổ." },
+        { "title": "Êm và kín", "text": "Độ ồn thấp, không rò bụi." }
+      ],
+      "applications": "Khai khoáng, luyện kim, nhựa, cao su, phân bón, hương liệu, tái chế",
+      "materials": "Bột mịn, vi hạt và vật liệu khó sàng"
+    },
+    "linear-vibrating-screen": {
+      "name": "Sàng rung thẳng (MRZX)",
+      "short": "Sàng rung thẳng kín hoàn toàn, tiết kiệm điện, năng suất cao.",
+      "intro": "Sàng rung thẳng MRZX dùng động cơ rung làm nguồn kích rung, vật liệu nhảy trên lưới và tiến theo đường thẳng, được phân thành nhiều cỡ qua các tầng lưới. Máy tiêu thụ ít điện, năng suất cao, kết cấu đơn giản, dễ sửa chữa, kín hoàn toàn không phát tán bụi, phù hợp dây chuyền tự động.",
+      "principle": "Hai động cơ rung quay đồng bộ ngược chiều. Lực của khối lệch tâm triệt tiêu theo phương song song với trục động cơ và cộng hưởng theo phương vuông góc, tạo chuyển động thẳng. Do trục động cơ nghiêng so với mặt sàng, vật liệu nhảy tiến dưới tác dụng của lực này và trọng lượng bản thân, hoàn thành việc phân loại.",
+      "features": [
+        { "title": "Giảm chấn, bền bỉ", "text": "Thép không gỉ dày, chống gỉ và ăn mòn." },
+        { "title": "Sàng hiệu quả", "text": "Chính xác, lưu lượng lớn, ít ồn, kín tốt." },
+        { "title": "Sản xuất theo yêu cầu", "text": "Mọi bộ phận đều tùy chỉnh được, dễ sửa chữa, phù hợp dây chuyền tự động." },
+        { "title": "Giảm chi phí vật tư", "text": "Tuổi thọ dài, giảm chi phí thay lưới mịn." }
+      ],
+      "applications": "Luyện kim, khai khoáng, hóa chất, vật liệu xây dựng, thực phẩm, dược phẩm",
+      "materials": "Bột, hạt, cát đá"
+    },
+    "auxiliary-equipment": {
+      "name": "Thiết bị phụ trợ",
+      "short": "Trọn bộ máy phụ trợ cho dây chuyền nghiền bột và làm cát.",
+      "intro": "Mingrun cung cấp trọn bộ thiết bị phụ trợ cho dây chuyền nghiền bột và làm cát, gồm máy đập, gầu nâng, vít tải, máy đóng bao, bộ lọc bụi xung, bộ thu xyclon, máy thổi Roots và quạt, đảm bảo cả dây chuyền đồng bộ và vận hành ổn định.",
+      "principle": "",
+      "features": [
+        { "title": "Máy đập", "text": "Đập sơ bộ vật liệu trước khi vào máy chính." },
+        { "title": "Gầu nâng", "text": "Nâng vật liệu thẳng đứng lên phễu chứa." },
+        { "title": "Bộ lọc bụi xung", "text": "Thu bụi, đạt tiêu chuẩn môi trường." },
+        { "title": "Máy thổi Roots / quạt", "text": "Cấp khí cho vận chuyển và phân loại." },
+        { "title": "Vít tải", "text": "Vận chuyển bột kín." },
+        { "title": "Máy đóng bao", "text": "Cân và đóng bao bột thành phẩm." }
+      ],
+      "applications": "Dây chuyền nghiền bột, dây chuyền làm cát",
+      "materials": ""
+    }
+  },
+  "services": {
+    "pre": ["Miễn phí quy hoạch mặt bằng và tư vấn chọn thiết bị", "Thiết kế bản vẽ móng và sơ đồ công nghệ", "Miễn phí cử kỹ sư đến hiện trường thiết kế phương án"],
+    "during": ["Kiểm tra chất lượng nghiêm ngặt trước khi xuất xưởng", "Miễn phí thông tin vận chuyển và điều phối giao hàng", "Miễn phí hướng dẫn làm móng, lắp đặt và chạy thử", "Miễn phí đào tạo vận hành và bảo dưỡng"],
+    "after": ["Hướng dẫn sản xuất và kỹ thuật cho từng loại bột", "Cung cấp phụ gia nghiền, hoạt hóa và biến tính", "Giải pháp tiêu thụ sản phẩm bột", "Đào tạo bán hàng thực chiến cho đội ngũ của bạn"],
+    "epc": {
+      "intro": "Tổng thầu EPC trọn gói: theo hợp đồng, chúng tôi đảm nhận thiết kế, dự toán, mua sắm thiết bị và vật tư, thi công, vận hành thử và nghiệm thu, chịu trách nhiệm toàn diện về chất lượng, tiến độ, chi phí và vận hành ổn định.",
+      "steps": ["Nghiên cứu khả thi", "Thiết kế dự án", "Mua sắm", "Xây dựng và thi công", "Lắp đặt và chạy thử", "Đào tạo nhân sự", "Dịch vụ hậu mãi"]
+    }
+  },
+  "caseCategories": { "grinding": "Dây chuyền nghiền bột", "sand": "Dây chuyền làm cát", "screening": "Dây chuyền sàng lắc", "packing": "Dây chuyền đóng bao và xếp pallet" },
+  "cases": {
+    "liaoning-coal-grinding": "Dây chuyền nghiền than, Liêu Ninh",
+    "guangdong-limestone-grinding": "Dây chuyền nghiền đá vôi, Quảng Đông",
+    "sichuan-electrolyte-grinding": "Dây chuyền nghiền chất điện giải, Tứ Xuyên",
+    "south-china-limestone-grinding": "Dự án nghiền đá vôi, Hoa Nam",
+    "guangxi-limestone-grinding": "Dây chuyền nghiền đá vôi, Quảng Tây",
+    "jiangsu-coal-grinding": "Dây chuyền nghiền than mỏ, Giang Tô",
+    "hunan-sand-making": "Dây chuyền làm cát, Hồ Nam",
+    "zhejiang-sand-making": "Dây chuyền làm cát, Chiết Giang",
+    "gansu-square-screen": "Công trình sàng lắc vuông, Cam Túc",
+    "shandong-round-screen": "Công trình sàng lắc tròn, Sơn Đông",
+    "hunan-square-screen": "Công trình sàng lắc vuông, Hồ Nam",
+    "guangdong-packing-line": "Dây chuyền đóng bao và xếp pallet tự động, Quảng Đông",
+    "shandong-packing-line": "Dây chuyền đóng bao và xếp pallet tự động, Sơn Đông"
+  }
+}

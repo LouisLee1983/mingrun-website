@@ -1,0 +1,151 @@
+{
+  "company": {
+    "name": "Guilin Mingrun Mining Machinery Co., Ltd.",
+    "shortName": "Mingrun Machinery",
+    "slogan": "Precise Design, Lean Manufacturing",
+    "address": "Yangtang Industrial Park, Guilin Economic and Technological Development Zone, Guangxi, China",
+    "intro": "Guilin Mingrun Mining Machinery Co., Ltd. is a mining machinery manufacturer focused on grinding mills and sand making machines, integrating R&D, design, manufacturing, training and after-sales service. Specializing in powder grinding equipment, we combine research, technical service, marketing and production to support customers through the whole life of a production line: project consulting, site survey, sample analysis, process design, installation, commissioning and maintenance guidance.",
+    "philosophy": "Focused on technical innovation, committed to outstanding quality",
+    "spirit": "Unity, Dedication, Pioneering, Efficiency",
+    "policy": "Quality first, customer foremost, innovation and continuous improvement",
+    "promise": "We serve our customers with sincerity, quality products, all-round service and fair prices."
+  },
+  "specLabels": {
+    "feedSize": "Feed size",
+    "capacity": "Capacity",
+    "efficiency": "Packing & palletizing rate",
+    "bagWeight": "Bag weight",
+    "layers": "Screen decks",
+    "speed": "Rotation speed",
+    "screenArea": "Screen area",
+    "amplitude": "Amplitude",
+    "frequency": "Frequency"
+  },
+  "products": {
+    "mr-grinding-mill": {
+      "name": "MR Series Grinding Mill",
+      "short": "High-efficiency, low-energy fine powder mill for many materials.",
+      "intro": "The MR Series Grinding Mill is Mingrun's high-efficiency, energy-saving powder making machine for non-metallic minerals in metallurgy, mining, building materials, power and chemical industries. It produces ground calcium carbonate, desulfurization limestone powder, coal powder, petroleum coke powder and more.",
+      "principle": "After crushing, material is lifted to the hopper and fed evenly and continuously into the grinding chamber. Ground powder is carried by the airflow to the classifier; qualified fine powder is separated in the cyclone collector, while oversize particles fall back into the mill for regrinding. The airflow system works in a closed circuit for a clean working environment.",
+      "features": [
+        { "title": "Stepped rollers and ring", "text": "Longer grinding time per pass for higher crushing efficiency." },
+        { "title": "High-density classifier rotor", "text": "Finer product and higher output at the same time." },
+        { "title": "High-efficiency centrifugal fan", "text": "Die-formed fan that outperforms conventional fans." },
+        { "title": "Easy fineness control", "text": "Adjustable classifier blade gap to set product fineness." }
+      ],
+      "applications": "Metallurgy, mining, building materials, power, chemicals",
+      "materials": "Limestone, calcite, dolomite, marble, talc, coal, kaolin, barite, petroleum coke, bauxite and more"
+    },
+    "sf-sand-making-machine": {
+      "name": "SF Series Sand Making Machine",
+      "short": "Vertical impact sand maker for sand making, shaping and powder collection.",
+      "intro": "The SF Series is a vertical impact sand making machine designed mainly for sand production, with powder collection as a secondary function. It is used for natural colored sand, manufactured sand and aggregate shaping, and usually works with a crusher, elevator, belt feeder, vibrating screen and dust collector as a complete sand making line.",
+      "principle": "Feed is split into two streams by the distributor. One stream is accelerated by the high-speed rotor and thrown out to collide with the other stream. In the vortex chamber the material is crushed by repeated impact, friction and grinding before discharging from the bottom. Because crushing happens mostly rock-on-rock, metal wear and contamination are greatly reduced, and internal air circulation keeps dust down.",
+      "features": [
+        { "title": "High output, low energy", "text": "Low operating cost and easy maintenance." },
+        { "title": "Excellent particle shape", "text": "Cubic sand with adjustable grading and higher value." },
+        { "title": "Rock-on-rock crushing", "text": "Material lining protects wear parts and reduces contamination." },
+        { "title": "Low dust", "text": "Self-circulating airflow inside the chamber." }
+      ],
+      "applications": "Construction aggregates, terrazzo, stone-texture paint, colored sand coatings, epoxy sand flooring, road surface and base materials",
+      "materials": ""
+    },
+    "automatic-packing-palletizing-line": {
+      "name": "Automatic Packing & Palletizing Line",
+      "short": "Fully automatic weighing, bagging and palletizing for powders and granules.",
+      "intro": "The line combines an automatic bag placer, packing machine, conveyors, check weigher, inkjet coder, palletizing robot, pallet magazine, pallet shaper and stretch wrapper. It runs the whole process from bag placing, weighing and filling to palletizing and wrapping without operators, for both valve bags and open-mouth bags.",
+      "principle": "Empty bags are placed automatically and filled to the set weight, then conveyed to the check weigher where off-weight bags are rejected. Accepted bags are coded and stacked by the robot in the selected pattern; full pallets are shaped, wrapped and discharged.",
+      "features": [
+        { "title": "Simple operation", "text": "Touchscreen control, simple structure, low failure rate." },
+        { "title": "Saves energy and space", "text": "Uses about one third of the power of a mechanical palletizer, with a small footprint." },
+        { "title": "One robot, many lines", "text": "Handles products from up to 4 independent lines at once." },
+        { "title": "Flexible patterns", "text": "10 built-in pallet patterns plus custom patterns." }
+      ],
+      "applications": "Building materials, chemicals, food, grain and edible oil",
+      "materials": "Powders and granular materials"
+    },
+    "square-tumbler-screen": {
+      "name": "Square Tumbler Screen (MRFX)",
+      "short": "High-capacity reciprocating screen that mimics manual sieving.",
+      "intro": "The MRFX square tumbler screen (gyratory reciprocating screen) imitates manual sieving. An eccentric drive rotating around a fixed axis produces a regularly changing reciprocating inertial force, giving high throughput, a fully enclosed design and long screen life.",
+      "principle": "Driven by the inertial force, the screen box moves back and forth and the screen surface swings periodically, so material advances in directional hops. Particles smaller than the mesh pass to the lower deck as undersize; larger particles discharge from the deck as oversize.",
+      "features": [
+        { "title": "High capacity", "text": "Multi-deck design that can run as two groups, replacing several machines." },
+        { "title": "Gentle, accurate screening", "text": "Combines circular, elliptical and linear motion; acceleration 4–5 times lower than ordinary vibrating screens." },
+        { "title": "Stable operation", "text": "Reinforced base, with an optional suspended design for retrofits." },
+        { "title": "Easy maintenance", "text": "Screen panel system for quick cleaning and mesh changes." }
+      ],
+      "applications": "Sand and gravel, plastic pellets, metallurgical powders, wood, pharmaceuticals, fertilizers",
+      "materials": "Sand and gravel, plastic pellets, metal powders, wood chips, tablets and granules, fertilizers"
+    },
+    "round-tumbler-screen": {
+      "name": "Round Tumbler Screen (MRYX)",
+      "short": "High-precision fine powder screening with 90–95% accuracy.",
+      "intro": "The MRYX round tumbler screen is built for high-capacity, high-precision classification. It reproduces the motion of hand sieving mechanically and is ideal for fine powders, micro-particles and difficult materials. Screening accuracy, efficiency and mesh life can reach 5–10 times those of a conventional round vibrating screen.",
+      "principle": "A gyratory tumbling motion imitates hand sieving. Material rolls across the screen and spreads evenly toward the edge; fine particles gradually pass through the mesh while coarse particles move to the outlet. Amplitude and frequency are adjustable, and residence time is controlled by the radial and tangential inclination.",
+      "features": [
+        { "title": "High accuracy", "text": "Screening accuracy of 90–95%." },
+        { "title": "Multiple mesh cleaning options", "text": "Bouncing balls, rotary brushes, air jets, elastic scrapers or ultrasonic cleaning prevent blinding." },
+        { "title": "Gentle screening", "text": "Keeps particle structure intact with little static, suitable for flammable materials." },
+        { "title": "Quiet and enclosed", "text": "Low noise, no dust leakage." }
+      ],
+      "applications": "Mining, metallurgy, plastics, rubber, fertilizers, spices, recycling",
+      "materials": "Fine powders, micro-particles and hard-to-screen materials"
+    },
+    "linear-vibrating-screen": {
+      "name": "Linear Vibrating Screen (MRZX)",
+      "short": "Low-energy, high-output, fully enclosed linear screen.",
+      "intro": "The MRZX linear vibrating screen uses vibration motors as its excitation source, making material hop forward in a straight line over the mesh and separating it into several sizes across multiple decks. It offers low energy use, high output, a simple structure, easy maintenance and a fully enclosed, dust-free design for automated production lines.",
+      "principle": "Two vibration motors rotate synchronously in opposite directions. The forces of their eccentric weights cancel parallel to the motor axis and combine perpendicular to it, producing straight-line motion. With the motors inclined to the screen deck, material moves forward in hops under this force and its own weight, and is classified by size.",
+      "features": [
+        { "title": "Durable and vibration-damped", "text": "Thickened stainless steel, rust and corrosion resistant." },
+        { "title": "Efficient screening", "text": "High accuracy, large throughput, low noise, good sealing." },
+        { "title": "Built to order", "text": "Every part can be customized; easy to service and integrate into automated lines." },
+        { "title": "Lower consumable cost", "text": "Long service life reduces fine mesh replacement costs." }
+      ],
+      "applications": "Metallurgy, mining, chemicals, building materials, food, pharmaceuticals",
+      "materials": "Powders, granules, sand and gravel"
+    },
+    "auxiliary-equipment": {
+      "name": "Auxiliary Equipment",
+      "short": "Complete supporting machines for grinding and sand making lines.",
+      "intro": "Mingrun supplies complete supporting equipment for grinding and sand making lines, including crushers, bucket elevators, screw conveyors, packing machines, pulse dust collectors, cyclone collectors, Roots blowers and fans, so that the whole line is matched and runs reliably.",
+      "principle": "",
+      "features": [
+        { "title": "Crusher", "text": "Pre-crushes material before the main mill." },
+        { "title": "Bucket elevator", "text": "Lifts material vertically to the hopper." },
+        { "title": "Pulse dust collector", "text": "Collects dust to meet environmental standards." },
+        { "title": "Roots blower / fan", "text": "Supplies air for conveying and classification." },
+        { "title": "Screw conveyor", "text": "Enclosed conveying of powders." },
+        { "title": "Packing machine", "text": "Weighs and bags the finished powder." }
+      ],
+      "applications": "Grinding lines, sand making lines",
+      "materials": ""
+    }
+  },
+  "services": {
+    "pre": ["Free site planning and equipment selection", "Foundation drawings and process flow diagrams", "Free on-site visits by our engineers to design your process"],
+    "during": ["Strict quality inspection before shipment", "Free logistics information and coordinated delivery", "Free guidance on foundations, installation and commissioning", "Free operation and maintenance training"],
+    "after": ["Production and technical guidance for different powders", "Grinding aids, activation and modification additives", "Sales solutions for your powder products", "Practical sales training for your sales team"],
+    "epc": {
+      "intro": "EPC turnkey contracting: under contract we handle design, budgeting, equipment and material procurement, construction, trial operation and acceptance, and take full responsibility for quality, schedule, cost and stable operation.",
+      "steps": ["Feasibility study", "Project design", "Procurement", "Civil works and construction", "Installation and commissioning", "Staff training", "After-sales service"]
+    }
+  },
+  "caseCategories": { "grinding": "Grinding lines", "sand": "Sand making lines", "screening": "Tumbler screen lines", "packing": "Packing & palletizing lines" },
+  "cases": {
+    "liaoning-coal-grinding": "Coal Grinding Line, Liaoning",
+    "guangdong-limestone-grinding": "Limestone Grinding Line, Guangdong",
+    "sichuan-electrolyte-grinding": "Electrolyte Grinding Line, Sichuan",
+    "south-china-limestone-grinding": "Limestone Grinding Project, South China",
+    "guangxi-limestone-grinding": "Limestone Grinding Line, Guangxi",
+    "jiangsu-coal-grinding": "Coal Mine Grinding Line, Jiangsu",
+    "hunan-sand-making": "Sand Making Line, Hunan",
+    "zhejiang-sand-making": "Sand Making Line, Zhejiang",
+    "gansu-square-screen": "Square Tumbler Screen Site, Gansu",
+    "shandong-round-screen": "Round Tumbler Screen Site, Shandong",
+    "hunan-square-screen": "Square Tumbler Screen Site, Hunan",
+    "guangdong-packing-line": "Automatic Packing & Palletizing Line, Guangdong",
+    "shandong-packing-line": "Automatic Packing & Palletizing Line, Shandong"
+  }
+}
