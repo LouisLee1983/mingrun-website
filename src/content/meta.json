@@ -6,68 +6,174 @@
     "email": "3693043122@qq.com",
     "postcode": "541000",
     "icp": "桂ICP备2024029237号-1",
-    "logo": "/images/logo.png"
+    "logo": "/images/logo.png",
+    "founded": "2019"
   },
-  "locales": ["en", "zh", "ru", "ar", "vi"],
+  "locales": [
+    "en",
+    "zh",
+    "ru",
+    "ar",
+    "vi"
+  ],
   "defaultLocale": "en",
-  "rtlLocales": ["ar"],
+  "rtlLocales": [
+    "ar"
+  ],
   "products": [
     {
       "id": "mr-grinding-mill",
       "model": "MR",
-      "specs": { "feedSize": "≤30 mm", "capacity": "1–30 t/h" },
-      "images": { "main": "/images/products/mr-main.jpg", "principle": "/images/products/mr-principle.jpg", "params": "/images/products/mr-params.jpg" }
+      "specs": {
+        "feedSize": "≤35 mm",
+        "capacity": "2–30 t/h"
+      },
+      "images": {
+        "main": "/images/products/mr-main.jpg",
+        "principle": "/images/products/mr-principle.jpg",
+        "params": "/images/products/mr-params.jpg"
+      }
     },
     {
       "id": "sf-sand-making-machine",
       "model": "SF",
-      "specs": { "feedSize": "≤150 mm", "capacity": "30–150 t/h" },
-      "images": { "main": "/images/products/sf-main.jpg", "principle": "/images/products/sf-principle.jpg", "params": "/images/products/sf-params.jpg" }
+      "specs": {
+        "feedSize": "≤120 mm",
+        "capacity": "30–150 t/h"
+      },
+      "images": {
+        "main": "/images/products/sf-main.jpg",
+        "principle": "/images/products/sf-principle.jpg",
+        "params": "/images/products/sf-params.jpg"
+      }
     },
     {
       "id": "automatic-packing-palletizing-line",
-      "model": "",
-      "specs": { "efficiency": "400–1000 bags/h", "bagWeight": "5–50 kg" },
-      "images": { "main": "/images/products/pack-main.jpg", "principle": "/images/products/pack-principle.jpg", "params": "/images/products/pack-params.jpg" }
+      "model": "MRMD",
+      "specs": {
+        "efficiency": "400–1000 bags/h",
+        "bagWeight": "5–50 kg"
+      },
+      "images": {
+        "main": "/images/products/pack-main.jpg",
+        "principle": "/images/products/pack-principle.jpg",
+        "params": "/images/products/pack-params.jpg"
+      }
     },
     {
       "id": "square-tumbler-screen",
       "model": "MRFX",
-      "specs": { "layers": "1–10", "speed": "180–260 r/min" },
-      "images": { "main": "/images/products/fx-main.jpg", "principle": "/images/products/fx-principle.jpg", "params": "/images/products/fx-params.jpg" }
+      "specs": {
+        "layers": "1–10",
+        "speed": "180–260 r/min"
+      },
+      "images": {
+        "main": "/images/products/fx-main.jpg",
+        "principle": "/images/products/fx-principle.jpg",
+        "params": "/images/products/fx-params.jpg"
+      }
     },
     {
       "id": "round-tumbler-screen",
       "model": "MRYX",
-      "specs": { "layers": "1–5", "screenArea": "0.71–5.31 m²", "amplitude": "25–40 mm", "frequency": "120–360 /min" },
-      "images": { "main": "/images/products/yx-main.jpg", "principle": "/images/products/yx-principle.jpg", "params": "/images/products/yx-params.jpg" }
+      "specs": {
+        "layers": "1–5",
+        "screenArea": "0.71–5.31 m²",
+        "amplitude": "25–40 mm",
+        "frequency": "120–360 /min"
+      },
+      "images": {
+        "main": "/images/products/yx-main.jpg",
+        "principle": "/images/products/yx-principle.jpg",
+        "params": "/images/products/yx-params.jpg"
+      }
     },
     {
       "id": "linear-vibrating-screen",
       "model": "MRZX",
-      "specs": { "layers": "1–6", "feedSize": "0.074–40 mm" },
-      "images": { "main": "/images/products/zx-main.jpg", "principle": "/images/products/zx-principle.jpg", "params": "/images/products/zx-params.jpg" }
+      "specs": {
+        "layers": "1–6",
+        "feedSize": "0.074–40 mm"
+      },
+      "images": {
+        "main": "/images/products/zx-main.jpg",
+        "principle": "/images/products/zx-principle.jpg",
+        "params": "/images/products/zx-params.jpg"
+      }
     },
     {
       "id": "auxiliary-equipment",
       "model": "",
       "specs": {},
-      "images": {}
+      "images": {
+        "main": "/images/products/auxiliary/roots-blower.jpg"
+      },
+      "featureImages": [
+        "/images/products/auxiliary/crusher.jpg",
+        "/images/products/auxiliary/bucket-elevator.jpg",
+        "/images/products/auxiliary/pulse-dust-collector.jpg",
+        "/images/products/auxiliary/roots-blower.jpg",
+        "",
+        "/images/products/auxiliary/packing-machine.jpg"
+      ]
     }
   ],
   "cases": [
-    { "id": "liaoning-coal-grinding", "category": "grinding" },
-    { "id": "guangdong-limestone-grinding", "category": "grinding" },
-    { "id": "sichuan-electrolyte-grinding", "category": "grinding" },
-    { "id": "south-china-limestone-grinding", "category": "grinding" },
-    { "id": "guangxi-limestone-grinding", "category": "grinding" },
-    { "id": "jiangsu-coal-grinding", "category": "grinding" },
-    { "id": "hunan-sand-making", "category": "sand" },
-    { "id": "zhejiang-sand-making", "category": "sand" },
-    { "id": "gansu-square-screen", "category": "screening" },
-    { "id": "shandong-round-screen", "category": "screening" },
-    { "id": "hunan-square-screen", "category": "screening" },
-    { "id": "guangdong-packing-line", "category": "packing" },
-    { "id": "shandong-packing-line", "category": "packing" }
+    {
+      "id": "liaoning-coal-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "guangdong-coal-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "guangdong-limestone-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "sichuan-electrolyte-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "south-china-limestone-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "guangxi-limestone-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "jiangsu-coal-grinding",
+      "category": "grinding"
+    },
+    {
+      "id": "hunan-sand-making",
+      "category": "sand"
+    },
+    {
+      "id": "zhejiang-sand-making",
+      "category": "sand"
+    },
+    {
+      "id": "gansu-square-screen",
+      "category": "screening"
+    },
+    {
+      "id": "shandong-round-screen",
+      "category": "screening"
+    },
+    {
+      "id": "hunan-square-screen",
+      "category": "screening"
+    },
+    {
+      "id": "guangdong-packing-line",
+      "category": "packing"
+    },
+    {
+      "id": "shandong-packing-line",
+      "category": "packing"
+    }
   ]
 }

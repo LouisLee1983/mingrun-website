@@ -32,7 +32,7 @@ export function getUi(locale: Locale) {
   return ui[locale];
 }
 
-export type ProductMeta = (typeof meta.products)[number] & { specs: Record<string, string>; images: Record<string, string> };
+export type ProductMeta = (typeof meta.products)[number] & { specs: Record<string, string>; images: Record<string, string>; featureImages?: string[] };
 
 export const products = meta.products as ProductMeta[];
 export const cases = meta.cases;

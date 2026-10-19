@@ -5,6 +5,7 @@ import ProductCard from "@/components/ProductCard";
 import ProductImage from "@/components/ProductImage";
 import { getContent, getUi, isLocale, locales, productText, products, type Locale } from "@/lib/i18n";
 import { imageExists } from "@/lib/images";
+import { cell, specTables } from "@/content/specs";
 import { pageMeta } from "@/lib/seo";
 
 type Params = { params: Promise<{ locale: string; id: string }> };
@@ -96,16 +97,48 @@ export default async function ProductPage({ params }: Params) {
               )}
             </div>
 
-            {product.images.params && (
+            {specTables[id] ? (
               <div>
                 <h2 className="mb-4 text-2xl font-bold">{ui.product.paramsTable}</h2>
-                {imageExists(product.images.params) ? (
-                  <ProductImage src={product.images.params} alt={`${t.name} – ${ui.product.paramsTable}`} label="" fit="contain" className="aspect-[16/9] rounded-lg border border-line" />
-                ) : (
-                  <p className="rounded-lg border border-dashed border-line p-6 text-sm text-muted">{ui.product.paramsNote}</p>
+                <div className="overflow-x-auto rounded-lg border border-line">
+                  <table className="w-full min-w-[640px] text-sm">
+                    <thead className="bg-ink text-white">
+                      <tr>
+                        {specTables[id].columns.map((c) => (
+                          <th key={c.key} className="px-3 py-3 text-start font-semibold">
+                            {c.label[locale]}
+                            {c.unit && <span className="block text-xs font-normal text-white/60">({cell(c.unit, locale)})</span>}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {specTables[id].rows.map((r, i) => (
+                        <tr key={i} className="border-t border-line even:bg-paper">
+                          {specTables[id].columns.map((c) => (
+                            <td key={c.key} className={`px-3 py-2.5 ${c.key === "model" ? "font-semibold" : ""}`} dir={c.key === "model" ? "ltr" : undefined}>
+                              {cell(r[c.key], locale)}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="mt-3 text-xs text-muted">{ui.product.paramsNote}</p>
+              </div>
+            ) : product.featureImages ? (
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {t.features.map((f, i) =>
+                  product.featureImages?.[i] ? (
+                    <div key={f.title} className="overflow-hidden rounded-lg border border-line">
+                      <ProductImage src={product.featureImages[i]} alt={f.title} label="" fit="contain" className="aspect-[4/3] bg-white" />
+                      <div className="p-3 text-sm font-semibold">{f.title}</div>
+                    </div>
+                  ) : null,
                 )}
               </div>
-            )}
+            ) : null}
           </div>
 
           <aside id="inquiry" className="h-fit scroll-mt-24 rounded-xl border border-line p-6 shadow-sm lg:sticky lg:top-24">

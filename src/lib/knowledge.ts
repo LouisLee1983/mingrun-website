@@ -1,10 +1,11 @@
 import { company, getContent, products, type Locale } from "@/lib/i18n";
+import { cell, specTables } from "@/content/specs";
 
 // The demo knowledge base is the site content itself, rendered as plain text for the system prompt.
 function renderKnowledge(locale: Locale) {
   const c = getContent(locale);
   const lines: string[] = [];
-  lines.push(`# ${c.company.name}`, c.company.intro, `${c.company.philosophy}. ${c.company.promise}`, `Address: ${c.company.address}`);
+  lines.push(`# ${c.company.name} (founded ${company.founded})`, c.company.intro, `${c.company.philosophy}. ${c.company.promise}`, `Address: ${c.company.address}`);
   for (const p of products) {
     const t = (c.products as Record<string, { name: string; intro: string; principle: string; features: { title: string; text: string }[]; applications: string; materials: string }>)[p.id];
     lines.push(`\n## ${t.name}`, t.intro);
@@ -14,6 +15,11 @@ function renderKnowledge(locale: Locale) {
     lines.push(t.features.map((f) => `- ${f.title}: ${f.text}`).join("\n"));
     if (t.applications) lines.push(`Applications: ${t.applications}`);
     if (t.materials) lines.push(`Materials: ${t.materials}`);
+    const table = specTables[p.id];
+    if (table) {
+      const head = table.columns.map((col) => `${col.label[locale]}${col.unit ? ` (${cell(col.unit, locale)})` : ""}`);
+      lines.push(head.join(" | "), ...table.rows.map((r) => table.columns.map((col) => cell(r[col.key], locale)).join(" | ")));
+    }
   }
   lines.push(`\n## Services`, ...c.services.pre, ...c.services.during, ...c.services.after, c.services.epc.intro);
   lines.push(`\n## Project cases`, Object.values(c.cases).join("; "));

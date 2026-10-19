@@ -69,6 +69,7 @@ export type UiStrings = {
   };
   footer: { rights: string; quickLinks: string };
   photoPending: string;
+  founded: string;
 };
 
 const en: UiStrings = {
@@ -119,7 +120,7 @@ const en: UiStrings = {
     applications: "Applications",
     materials: "Suitable materials",
     paramsTable: "Technical parameters",
-    paramsNote: "Full parameter table available on request. Contact us for the model that fits your capacity.",
+    paramsNote: "Parameters are for reference. Contact us to confirm the model that fits your capacity.",
     askQuote: "Request a quote",
     related: "Other products",
     allProducts: "All products",
@@ -155,6 +156,7 @@ const en: UiStrings = {
   },
   footer: { rights: "All rights reserved.", quickLinks: "Quick links" },
   photoPending: "Photo coming soon",
+  founded: "Founded",
 };
 
 const zh: UiStrings = {
@@ -205,7 +207,7 @@ const zh: UiStrings = {
     applications: "应用领域",
     materials: "适用物料",
     paramsTable: "技术参数",
-    paramsNote: "完整参数表可向我们索取，欢迎咨询适合您产量的型号。",
+    paramsNote: "参数仅供参考，欢迎咨询适合您产量的型号。",
     askQuote: "获取报价",
     related: "其他产品",
     allProducts: "全部产品",
@@ -241,6 +243,7 @@ const zh: UiStrings = {
   },
   footer: { rights: "版权所有。", quickLinks: "快速链接" },
   photoPending: "图片即将更新",
+  founded: "成立于",
 };
 
 const ru: UiStrings = {
@@ -291,7 +294,7 @@ const ru: UiStrings = {
     applications: "Области применения",
     materials: "Перерабатываемые материалы",
     paramsTable: "Технические параметры",
-    paramsNote: "Полную таблицу параметров вышлем по запросу. Поможем подобрать модель под вашу производительность.",
+    paramsNote: "Параметры приведены для справки. Свяжитесь с нами для подбора модели под вашу производительность.",
     askQuote: "Запросить цену",
     related: "Другая продукция",
     allProducts: "Вся продукция",
@@ -327,6 +330,7 @@ const ru: UiStrings = {
   },
   footer: { rights: "Все права защищены.", quickLinks: "Быстрые ссылки" },
   photoPending: "Фото скоро появится",
+  founded: "Год основания",
 };
 
 const ar: UiStrings = {
@@ -377,7 +381,7 @@ const ar: UiStrings = {
     applications: "مجالات الاستخدام",
     materials: "المواد المناسبة",
     paramsTable: "المعايير الفنية",
-    paramsNote: "جدول المعايير الكامل متاح عند الطلب. تواصلوا معنا لاختيار الطراز المناسب لطاقتكم.",
+    paramsNote: "المعايير للاسترشاد فقط. تواصلوا معنا لتأكيد الطراز المناسب لطاقتكم.",
     askQuote: "اطلب عرض سعر",
     related: "منتجات أخرى",
     allProducts: "جميع المنتجات",
@@ -413,6 +417,7 @@ const ar: UiStrings = {
   },
   footer: { rights: "جميع الحقوق محفوظة.", quickLinks: "روابط سريعة" },
   photoPending: "الصورة قريباً",
+  founded: "تأسست عام",
 };
 
 const vi: UiStrings = {
@@ -463,7 +468,7 @@ const vi: UiStrings = {
     applications: "Lĩnh vực ứng dụng",
     materials: "Vật liệu phù hợp",
     paramsTable: "Thông số kỹ thuật",
-    paramsNote: "Bảng thông số đầy đủ được gửi theo yêu cầu. Liên hệ để chọn model phù hợp năng suất của bạn.",
+    paramsNote: "Thông số chỉ mang tính tham khảo. Liên hệ để xác nhận model phù hợp năng suất của bạn.",
     askQuote: "Yêu cầu báo giá",
     related: "Sản phẩm khác",
     allProducts: "Tất cả sản phẩm",
@@ -499,6 +504,7 @@ const vi: UiStrings = {
   },
   footer: { rights: "Bảo lưu mọi quyền.", quickLinks: "Liên kết nhanh" },
   photoPending: "Ảnh sắp cập nhật",
+  founded: "Thành lập năm",
 };
 
 export const ui: Record<Locale, UiStrings> = { en, zh, ru, ar, vi };

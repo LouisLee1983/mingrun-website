@@ -1,6 +1,6 @@
 import ProductImage from "@/components/ProductImage";
 import SectionHeading from "@/components/SectionHeading";
-import { getContent, getUi, isLocale, type Locale } from "@/lib/i18n";
+import { company, getContent, getUi, isLocale, type Locale } from "@/lib/i18n";
 import { pageMeta } from "@/lib/seo";
 
 type Params = { params: Promise<{ locale: string }> };
@@ -30,10 +30,17 @@ export default async function AboutPage({ params }: Params) {
           <div>
             <SectionHeading eyebrow={t.nav.about} title={t.sections.about} />
             <h3 className="text-lg font-semibold">{c.company.name}</h3>
+            <p className="mt-1 text-sm font-medium text-accent-dark">{t.founded} {company.founded}</p>
             <p className="mt-4 leading-relaxed text-muted">{c.company.intro}</p>
             <p className="mt-4 leading-relaxed text-muted">{c.company.promise}</p>
           </div>
-          <ProductImage src="/images/company.jpg" alt={c.company.name} label={t.photoPending} className="aspect-[4/3] rounded-xl" />
+          <div className="grid gap-3">
+            <ProductImage src="/images/site/company-campus.jpg" alt={c.company.name} label={t.photoPending} className="aspect-[5/3] rounded-xl" />
+            <div className="grid grid-cols-2 gap-3">
+              <ProductImage src="/images/site/about-machining.jpg" alt={c.company.shortName} label="" className="aspect-[16/9] rounded-lg" />
+              <ProductImage src="/images/site/about-shipping.jpg" alt={c.company.shortName} label="" className="aspect-[16/9] rounded-lg" />
+            </div>
+          </div>
         </div>
       </section>
 
